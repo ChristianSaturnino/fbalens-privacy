@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy - FBALens</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ink: #0D1117;
+  --ink-soft: #3D4451;
+  --accent: #16A34A;
+  --accent-light: #DCFCE7;
+  --surface: #FFFFFF;
+  --surface-alt: #F8FAF8;
+  --border: #E5E7EB;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--surface-alt);
+  color: var(--ink);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+  padding: 0 max(24px, calc((100% - 980px)/2));
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: 'DM Serif Display', serif;
+  font-size: 22px;
+  color: var(--ink);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  display: inline-block;
+}
+
+.back-link {
+  color: var(--ink-soft);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.back-link:hover { color: var(--ink); }
+
+main {
+  padding: 48px max(24px, calc((100% - 980px)/2)) 72px;
+}
+
+.policy-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: clamp(24px, 3vw, 42px);
+}
+
+h1 {
+  font-family: 'DM Serif Display', serif;
+  font-size: clamp(34px, 5vw, 54px);
+  line-height: 1.1;
+  margin-bottom: 8px;
+}
+
+.updated {
+  color: var(--ink-soft);
+  font-size: 14px;
+  margin-bottom: 28px;
+}
+
+p {
+  font-size: 15px;
+  color: var(--ink-soft);
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-family: 'DM Serif Display', serif;
+  font-size: clamp(24px, 3vw, 32px);
+  line-height: 1.2;
+  margin-top: 34px;
+  margin-bottom: 14px;
+  color: var(--ink);
+}
+
+ul {
+  padding-left: 20px;
+  margin-bottom: 16px;
+}
+
+li {
+  margin-bottom: 10px;
+  color: var(--ink-soft);
+  font-size: 15px;
+}
+
+strong { color: var(--ink); }
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover { text-decoration: underline; }
+
+code {
+  font-family: 'DM Mono', monospace;
+  font-size: 13px;
+  background: var(--accent-light);
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+
+footer {
+  padding: 28px max(24px, calc((100% - 980px)/2));
+  border-top: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--ink-soft);
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  main {
+    padding-top: 28px;
+    padding-bottom: 40px;
+  }
+}
+</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="logo"><span class="logo-dot"></span>FBALens</a>
+  <a href="/" class="back-link">Back to home</a>
+</nav>
+
+<main>
+  <article class="policy-card">
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: June 2026</p>
+
+    <p>FBALens ("we", "our", or "us") is a Chrome extension that helps Amazon FBA sellers analyze product data directly on Amazon product pages. This Privacy Policy explains what data we collect, how we use it, and your rights.</p>
+
+    <h2>1. Data We Collect</h2>
+    <p>FBALens collects and stores the following data locally on your device:</p>
+    <ul>
+      <li><strong>Usage count:</strong> The number of product analyses performed today, stored locally to enforce the free tier limit (10/day). This data never leaves your device.</li>
+      <li><strong>Pro status:</strong> Whether your account is a paid Pro subscriber, stored locally after verification via ExtensionPay.</li>
+      <li><strong>Extension preferences:</strong> Settings such as overlay open/closed state, stored locally in your browser.</li>
+    </ul>
+
+    <h2>2. Data We Do NOT Collect</h2>
+    <ul>
+      <li>We do not collect, store, or transmit any Amazon product data you view.</li>
+      <li>We do not collect your Amazon account information, login credentials, or purchase history.</li>
+      <li>We do not collect personally identifiable information (PII) such as your name, email address, or IP address through the extension itself.</li>
+      <li>We do not use analytics, tracking pixels, or third-party monitoring tools inside the extension.</li>
+    </ul>
+
+    <h2>3. Third-Party Services</h2>
+    <p><strong>ExtensionPay:</strong> If you upgrade to FBALens Pro, payment is processed by ExtensionPay (extensionpay.com). ExtensionPay handles your payment information directly and has its own Privacy Policy. We receive only a confirmation of your paid status - no payment details are shared with us.</p>
+
+    <p><strong>Keepa:</strong> The extension may display a link to install the Keepa browser extension for price history data. Keepa is a separate service with its own Privacy Policy. FBALens does not transmit data to Keepa.</p>
+
+    <h2>4. Data Storage</h2>
+    <p>All data collected by FBALens is stored locally on your device using Chrome's built-in <code>chrome.storage.local</code> API. This data is not transmitted to any external server and is not accessible to us.</p>
+
+    <h2>5. Permissions</h2>
+    <p>FBALens requests the following Chrome permissions:</p>
+    <ul>
+      <li><strong>storage:</strong> To save your preferences and usage count locally on your device.</li>
+      <li><strong>activeTab:</strong> To read product data from the Amazon page you are currently viewing.</li>
+      <li><strong>Host permission (amazon.com, amazon.com.br, etc.):</strong> To inject the FBALens overlay on Amazon product pages.</li>
+    </ul>
+
+    <p>These permissions are used solely to provide the core functionality of the extension. We do not use these permissions to collect or transmit personal data.</p>
+
+    <h2>6. Children's Privacy</h2>
+    <p>FBALens is not directed at children under the age of 13. We do not knowingly collect data from children.</p>
+
+    <h2>7. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify users of significant changes by updating the "Last updated" date at the top of this page. Continued use of FBALens after changes constitutes acceptance of the updated policy.</p>
+
+    <h2>8. Contact</h2>
+    <p>If you have questions about this Privacy Policy, please contact us at: <a href="mailto:hello@fbalens.com">hello@fbalens.com</a></p>
+  </article>
+</main>
+
+<footer>
+  <p>© 2026 FBALens. All rights reserved.</p>
+</footer>
+</body>
+</html>
